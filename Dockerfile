@@ -1,5 +1,5 @@
 # استخدم صورة PHP مع Apache
-FROM php:8.1-apache
+FROM php:8.2-apache
 
 # تثبيت الإضافات المطلوبة لـ Laravel
 RUN apt-get update && apt-get install -y \
